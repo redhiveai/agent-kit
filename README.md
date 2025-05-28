@@ -142,10 +142,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 📞 Support
 
-- 📧 Email: support@redhive.com
-- 💬 Discord: [Join our community](https://discord.gg/redhive)
-- 🐛 Issues: [GitHub Issues](https://github.com/redhive/agent-kit/issues)
-- 📖 Docs: [Documentation Site](https://docs.redhive.com)
+- 📧 Email: contact@redhive.com
+- 💬 Telegram: [Join our community](https://t.me/RedHiveAI)
+- 📖 Docs: [Documentation Site](https://docs.redhive.ai)
 
 ---
 
