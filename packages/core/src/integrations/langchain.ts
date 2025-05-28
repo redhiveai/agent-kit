@@ -1,7 +1,7 @@
 import { tool } from "@langchain/core/tools";
-import { IAgent } from "../types/agent";
-import { Action } from "../types/action";
-import { ZodObject, ZodRawShape, ZodType } from "zod";
+import type { IAgent } from "../types/agent";
+import type { Action } from "../types/action";
+import { ZodObject, type ZodRawShape, ZodType } from "zod";
 
 export function createLangchainTools(
     agentKit: IAgent,

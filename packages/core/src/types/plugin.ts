@@ -1,5 +1,5 @@
-import { Action } from "./action";
-import { IAgent } from "./agent";
+import type { Action } from "./action";
+import type { IAgent } from "./agent";
 
 export interface Plugin {
     name: string;

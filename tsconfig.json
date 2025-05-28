@@ -6,6 +6,9 @@
       "path": "packages/common-utils"
     },
     {
+      "path": "packages/core"
+    },
+    {
       "path": "packages/example"
     }
   ]

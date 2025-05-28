@@ -13,6 +13,7 @@
     "test:unit": "vitest --workspace ../../vitest.workspace.ts --project unit run"
   },
   "dependencies": {
-    "@jkomyno/common-utils": "workspace:*"
+    "@redhive/agent-kit-core": "workspace:*",
+    "ethers": "^6.14.1"
   }
 }

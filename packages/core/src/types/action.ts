@@ -1,5 +1,5 @@
 import { z } from "zod";
-import { IAgent } from "./agent";
+import { type IAgent } from "./agent";
 
 export interface ActionExample {
     input: Record<string, any>;

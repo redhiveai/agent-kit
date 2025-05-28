@@ -1,7 +1,7 @@
 import { ethers } from "ethers";
-import { Config } from "./config"
-import { Action } from "./action";
-import { Plugin } from "./plugin";
+import type { Config } from "./config";
+import type { Action } from "./action";
+import type { Plugin } from "./plugin";
 
 export type IAgent = {
     privider: ethers.AbstractProvider
