@@ -1,13 +1,29 @@
-export * from './debridge'
-export * from './ens'
-export * from './lido'
-export * from './nativeToUSDPrice'
-export * from './nfts'
-export * from './resolveToken'
-export * from './swapTokens'
-export * from './transferERC20'
-export * from './transferNative'
-export * from './walletBalance'
-export * from './walletBalances'
-export * from './walletERC20Balance'
-export * from './walletTransactions'
+import { bridge } from './debridge'
+import { resolveENS } from './ens'
+import { lidoStake } from './lido'
+import { nativeToUSDPrice } from './nativeToUSDPrice'
+import { walletNFTs } from './nfts'
+import { resolveToken } from './resolveToken'
+import { swapTokens } from './swapTokens'
+import { transferERC20 } from './transferERC20'
+import { transferNative } from './transferNative'
+import { walletBalance } from './walletBalance'
+import { walletBalances } from './walletBalances'
+import { walletERC20Balance } from './walletERC20Balance'
+import { walletTransactions } from './walletTransactions'
+
+export const defaultActions = {
+  bridge,
+  resolveENS,
+  lidoStake,
+  nativeToUSDPrice,
+  walletNFTs,
+  resolveToken,
+  swapTokens,
+  transferERC20,
+  transferNative,
+  walletBalance,
+  walletBalances,
+  walletERC20Balance,
+  walletTransactions,
+}
