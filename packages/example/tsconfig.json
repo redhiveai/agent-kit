@@ -6,7 +6,12 @@
   ],
   "compilerOptions": {
     // Disable emitting file from a compilation.
-    "noEmit": true
+    "noEmit": true,
+    "baseUrl": ".",
+    "paths": {
+      "@redhive/agent-kit-core": ["../core/src"],
+      "@redhive/agent-kit-core/*": ["../core/src/*"]
+    }
   },
   "references": [
     {
