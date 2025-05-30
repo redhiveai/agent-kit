@@ -1,19 +1,7 @@
 import {
   AgentKit,
-  bridge,
-  lidoStake,
-  nativeToUSDPrice,
-  resolveENS,
-  resolveToken,
+  defaultActions,
   startMcpServer,
-  swapTokens,
-  transferERC20,
-  transferNative,
-  walletBalance,
-  walletBalances,
-  walletERC20Balance,
-  walletNFTs,
-  walletTransactions,
   type Action,
 } from '@redhive/agent-kit-core'
 import { ethers } from 'ethers'
@@ -25,21 +13,7 @@ const kit = new AgentKit(new ethers.Wallet('0x....'), {
 })
 
 // Add your required actions here
-const mcp_actions: Record<string, Action> = {
-  bridge,
-  resolveENS,
-  lidoStake,
-  nativeToUSDPrice,
-  walletNFTs,
-  resolveToken,
-  swapTokens,
-  transferERC20,
-  transferNative,
-  walletBalance,
-  walletBalances,
-  walletERC20Balance,
-  walletTransactions,
-}
+const mcp_actions: Record<string, Action> = defaultActions
 
 for (const action of kit.actions) {
   mcp_actions[action.name] = action
