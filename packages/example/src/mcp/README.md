@@ -4,7 +4,7 @@
 
 </div>
 
-A Redhive Agent Kit implementation using the Model Context Protocol (MCP) for handling protocol operations on the Solana blockchain.
+A Redhive Agent Kit implementation using the Model Context Protocol (MCP) for handling protocol operations on the Ethereum blockchain.
 
 ## Features
 
